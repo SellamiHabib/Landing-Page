@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
 
 }
 /* ------- START OF 1ST SECTION CSS --------*/
@@ -9,9 +11,7 @@ body {
     margin: 0px;
     height: 450px;
     display: flex;
-    flex-direction: column;
-   
-    
+    flex-direction: column;    
 }
 
 .header {
@@ -149,6 +149,7 @@ font-weight: 501;
     justify-content: center;
     align-items: center;
     gap : 20px;
+    flex : 1 1 auto;
 }
 .text {
     display: flex;
@@ -168,3 +169,46 @@ font-weight: 501;
 /* ------- END OF 3D SECTION CSS --------*/
 
 /* ------- START OF 4TH SECTION CSS --------*/
+
+.signup_container {
+background-color: #4446d4;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width:  800px;
+height: 110px;
+align-self: center;
+border-radius: 20px;
+gap: 36px;
+margin-bottom: 50px;
+padding : 16px;
+padding : 0 40px;
+}
+.signup_container .text .title{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.signup_container button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border: solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+.footer {
+    flex : 1 1 auto;
+    display: flex;
+    justify-content: center;
+    color : white;
+    background-color: rgb(1, 2, 3);
+    
+    }
