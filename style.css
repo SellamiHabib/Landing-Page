@@ -139,3 +139,32 @@ font-weight: 501;
 /* ------- END OF 2ND SECTION CSS --------*/
 
 /* ------- START OF 3D SECTION CSS --------*/
+
+.quote_container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin : 60px 0;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.mouleha {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 30px;
+   
+}
+/* ------- END OF 3D SECTION CSS --------*/
+
+/* ------- START OF 4TH SECTION CSS --------*/
