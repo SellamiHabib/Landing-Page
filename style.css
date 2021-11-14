@@ -1,13 +1,16 @@
 body {
     margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
 }
+/* ------- START OF 1ST SECTION CSS --------*/
 .intro_container {
     background-color: #1F2937;
     margin: 0px;
     height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: ;
+   
     
 }
 
@@ -20,15 +23,15 @@ body {
 }
 .logo {
     width: 50px;
-  
+   
+    margin-top: 20px;
 }
 
 .links a {
     color: #E5E7EB;
     text-decoration: none;
     padding: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
+    
 }
 .intro_content {
     display: flex;
@@ -85,3 +88,54 @@ max-height: 202px;
 min-width: 400px;
 
 }
+
+/* ------- END OF 1ST SECTION CSS --------*/
+
+/* ------- START OF 2ND SECTION CSS --------*/
+
+.pictures_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color : #1F2937;
+}
+ ul {
+    display: flex;
+    justify-content: space-around;
+    gap : 16px;
+    flex-wrap: wrap;
+    margin : 0 0px
+}
+li {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin : 0 ;
+    gap : 15px;
+}
+li img {
+    border: solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    border-color: #6c6eebfd;
+    border-width: 5px;
+    
+}
+ li p {
+color: rgb(71, 71, 71);
+font-weight: 501;
+}
+
+/* ------- END OF 2ND SECTION CSS --------*/
+
+/* ------- START OF 3D SECTION CSS --------*/
